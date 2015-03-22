@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94834DE01ABE50C800AACC10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94834DDF1ABE50C800AACC10 /* AppDelegate.swift */; };
+		94834DE21ABE50C800AACC10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94834DE11ABE50C800AACC10 /* ViewController.swift */; };
+		94834DE51ABE50C800AACC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94834DE31ABE50C800AACC10 /* Main.storyboard */; };
+		94834DE71ABE50C800AACC10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94834DE61ABE50C800AACC10 /* Images.xcassets */; };
+		94834DEA1ABE50C800AACC10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94834DE81ABE50C800AACC10 /* LaunchScreen.xib */; };
+		94834DF61ABE50C800AACC10 /* MyNavigationDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94834DF51ABE50C800AACC10 /* MyNavigationDrawerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94834DF01ABE50C800AACC10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94834DD21ABE50C700AACC10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94834DD91ABE50C800AACC10;
+			remoteInfo = MyNavigationDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94834DDA1ABE50C800AACC10 /* MyNavigationDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNavigationDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94834DDE1ABE50C800AACC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94834DDF1ABE50C800AACC10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94834DE11ABE50C800AACC10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94834DE41ABE50C800AACC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94834DE61ABE50C800AACC10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94834DE91ABE50C800AACC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94834DEF1ABE50C800AACC10 /* MyNavigationDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNavigationDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94834DF41ABE50C800AACC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94834DF51ABE50C800AACC10 /* MyNavigationDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationDrawerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94834DD71ABE50C800AACC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94834DEC1ABE50C800AACC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94834DD11ABE50C700AACC10 = {
+			isa = PBXGroup;
+			children = (
+				94834DDC1ABE50C800AACC10 /* MyNavigationDrawer */,
+				94834DF21ABE50C800AACC10 /* MyNavigationDrawerTests */,
+				94834DDB1ABE50C800AACC10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94834DDB1ABE50C800AACC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94834DDA1ABE50C800AACC10 /* MyNavigationDrawer.app */,
+				94834DEF1ABE50C800AACC10 /* MyNavigationDrawerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94834DDC1ABE50C800AACC10 /* MyNavigationDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				94834DDF1ABE50C800AACC10 /* AppDelegate.swift */,
+				94834DE11ABE50C800AACC10 /* ViewController.swift */,
+				94834DE31ABE50C800AACC10 /* Main.storyboard */,
+				94834DE61ABE50C800AACC10 /* Images.xcassets */,
+				94834DE81ABE50C800AACC10 /* LaunchScreen.xib */,
+				94834DDD1ABE50C800AACC10 /* Supporting Files */,
+			);
+			path = MyNavigationDrawer;
+			sourceTree = "<group>";
+		};
+		94834DDD1ABE50C800AACC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94834DDE1ABE50C800AACC10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94834DF21ABE50C800AACC10 /* MyNavigationDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				94834DF51ABE50C800AACC10 /* MyNavigationDrawerTests.swift */,
+				94834DF31ABE50C800AACC10 /* Supporting Files */,
+			);
+			path = MyNavigationDrawerTests;
+			sourceTree = "<group>";
+		};
+		94834DF31ABE50C800AACC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94834DF41ABE50C800AACC10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94834DD91ABE50C800AACC10 /* MyNavigationDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94834DF91ABE50C800AACC10 /* Build configuration list for PBXNativeTarget "MyNavigationDrawer" */;
+			buildPhases = (
+				94834DD61ABE50C800AACC10 /* Sources */,
+				94834DD71ABE50C800AACC10 /* Frameworks */,
+				94834DD81ABE50C800AACC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNavigationDrawer;
+			productName = MyNavigationDrawer;
+			productReference = 94834DDA1ABE50C800AACC10 /* MyNavigationDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94834DEE1ABE50C800AACC10 /* MyNavigationDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94834DFC1ABE50C800AACC10 /* Build configuration list for PBXNativeTarget "MyNavigationDrawerTests" */;
+			buildPhases = (
+				94834DEB1ABE50C800AACC10 /* Sources */,
+				94834DEC1ABE50C800AACC10 /* Frameworks */,
+				94834DED1ABE50C800AACC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94834DF11ABE50C800AACC10 /* PBXTargetDependency */,
+			);
+			name = MyNavigationDrawerTests;
+			productName = MyNavigationDrawerTests;
+			productReference = 94834DEF1ABE50C800AACC10 /* MyNavigationDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94834DD21ABE50C700AACC10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sergey Kargopolov";
+				TargetAttributes = {
+					94834DD91ABE50C800AACC10 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					94834DEE1ABE50C800AACC10 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 94834DD91ABE50C800AACC10;
+					};
+				};
+			};
+			buildConfigurationList = 94834DD51ABE50C700AACC10 /* Build configuration list for PBXProject "MyNavigationDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94834DD11ABE50C700AACC10;
+			productRefGroup = 94834DDB1ABE50C800AACC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94834DD91ABE50C800AACC10 /* MyNavigationDrawer */,
+				94834DEE1ABE50C800AACC10 /* MyNavigationDrawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94834DD81ABE50C800AACC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94834DE51ABE50C800AACC10 /* Main.storyboard in Resources */,
+				94834DEA1ABE50C800AACC10 /* LaunchScreen.xib in Resources */,
+				94834DE71ABE50C800AACC10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94834DED1ABE50C800AACC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94834DD61ABE50C800AACC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94834DE21ABE50C800AACC10 /* ViewController.swift in Sources */,
+				94834DE01ABE50C800AACC10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94834DEB1ABE50C800AACC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94834DF61ABE50C800AACC10 /* MyNavigationDrawerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94834DF11ABE50C800AACC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94834DD91ABE50C800AACC10 /* MyNavigationDrawer */;
+			targetProxy = 94834DF01ABE50C800AACC10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94834DE31ABE50C800AACC10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94834DE41ABE50C800AACC10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94834DE81ABE50C800AACC10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94834DE91ABE50C800AACC10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94834DF71ABE50C800AACC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94834DF81ABE50C800AACC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94834DFA1ABE50C800AACC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNavigationDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94834DFB1ABE50C800AACC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNavigationDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94834DFD1ABE50C800AACC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyNavigationDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNavigationDrawer.app/MyNavigationDrawer";
+			};
+			name = Debug;
+		};
+		94834DFE1ABE50C800AACC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyNavigationDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNavigationDrawer.app/MyNavigationDrawer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94834DD51ABE50C700AACC10 /* Build configuration list for PBXProject "MyNavigationDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94834DF71ABE50C800AACC10 /* Debug */,
+				94834DF81ABE50C800AACC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94834DF91ABE50C800AACC10 /* Build configuration list for PBXNativeTarget "MyNavigationDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94834DFA1ABE50C800AACC10 /* Debug */,
+				94834DFB1ABE50C800AACC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94834DFC1ABE50C800AACC10 /* Build configuration list for PBXNativeTarget "MyNavigationDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94834DFD1ABE50C800AACC10 /* Debug */,
+				94834DFE1ABE50C800AACC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94834DD21ABE50C700AACC10 /* Project object */;
+}
